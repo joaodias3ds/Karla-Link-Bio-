@@ -1,0 +1,6 @@
+{
+  "name": "Laura Mendes — Psicóloga",
+  "description": "Link na bio de Laura Mendes, psicóloga clínica. Cuidado emocional com escuta, acolhimento e leveza.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
