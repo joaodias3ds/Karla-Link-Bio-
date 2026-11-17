@@ -15,7 +15,7 @@ export interface LinkCardItem {
   iconColor: string;
   imageSrc: string;
   imageAlt: string;
-  layout: 'photo-left' | 'photo-right';
+  layout: 'photo-right' | 'photo-right';
   iconType?: 'laptop' | 'child' | 'chat';
 }
 
@@ -47,23 +47,23 @@ export const PROFILE = {
   firstName: 'Karla',
   lastName: 'Eduarda',
   role: 'Psicóloga',
-  specialty: 'Crianças e Pré-adolescentes',
+  specialty: 'Atendimento Infantojuvenil',
   crp: 'CRP 06/182940',
-  heroTaglinePrefix: 'Cuidado emocional para ',
-  heroTaglineBold1: 'crianças',
-  heroTaglineMiddle: ' e ',
-  heroTaglineBold2: 'pré-adolescentes',
+  heroTaglinePrefix: 'Cuidado emocional para o ',
+  heroTaglineBold1: 'público',
+  heroTaglineMiddle: ' ',
+  heroTaglineBold2: 'infantojuvenil',
   heroTaglineSuffix: ' com escuta, afeto e leveza.',
   heroImage: '/assets/images/laura-hero.png',
   sobreImage: '/assets/images/laura-sobre.png',
   quotePrefix:
-    'Crescer fica mais leve quando há um lugar seguro para sentir, brincar e ser ouvido. Aqui, crianças e pré-adolescentes encontram ',
+    'Crescer fica mais leve quando há um lugar seguro para sentir, brincar e ser ouvido. Aqui, o público infantojuvenil encontra ',
   quoteBold: 'escuta sensível, acolhimento',
   quoteSuffix:
     ' e apoio gentil para fortalecer a autoestima, lidar com as emoções e construir vínculos saudáveis.',
   sobreTitle: 'Sobre mim',
   sobreBody:
-    'Sou Karla Eduarda, psicóloga clínica dedicada ao atendimento online de crianças e pré-adolescentes. Com abordagem humanista e recursos lúdicos da terapia cognitivo-comportamental, acolho o universo infantil com respeito e caminho junto às famílias para promover segurança emocional, autonomia e bem-estar.',
+    'Sou Karla Eduarda, psicóloga clínica dedicada ao atendimento online infantojuvenil. Acolho cada fase do desenvolvimento com respeito, escuta sensível e atenção às necessidades de crianças, adolescentes e suas famílias, promovendo segurança emocional, autonomia e bem-estar.',
   sobreButtonLabel: 'Minha abordagem',
   copyrightName: 'Karla Eduarda',
   copyrightYear: '2027',
@@ -79,8 +79,8 @@ export const LINK_CARDS: LinkCardItem[] = [
     bgColor: PALETTE.cantaloupe,
     textColor: '#3A2E25',
     iconColor: '#6D5642',
-    imageSrc: '/assets/images/card-agende.png',
-    imageAlt: 'Ambiente acolhedor com poltronas claras e plantas',
+    imageSrc: '/assets/illustrations/card-agende.svg',
+    imageAlt: 'Ursinho de pelúcia, calendário e estrelas em ilustração infantil acolhedora',
     layout: 'photo-left',
   },
   {
@@ -90,20 +90,20 @@ export const LINK_CARDS: LinkCardItem[] = [
     bgColor: PALETTE.haze,
     textColor: '#362E3B',
     iconColor: '#5B4E63',
-    imageSrc: '/assets/images/card-online.png',
-    imageAlt: 'Notebook e xícara preparados para atendimento online',
+    imageSrc: '/assets/illustrations/card-online.svg',
+    imageAlt: 'Computador com desenho de sol sorridente, nuvens e materiais infantis',
     layout: 'photo-right',
     iconType: 'laptop',
   },
   {
     id: 'infantil',
-    titleLine1: 'Crianças e',
-    titleLine2: 'Pré-adolescentes',
+    titleLine1: 'Atendimento',
+    titleLine2: 'Infantojuvenil',
     bgColor: PALETTE.dahlia,
     textColor: '#3D2C30',
     iconColor: '#6E4C52',
-    imageSrc: '/assets/images/card-individual.png',
-    imageAlt: 'Espaço calmo e iluminado para atendimento infantojuvenil',
+    imageSrc: '/assets/illustrations/card-infantojuvenil.svg',
+    imageAlt: 'Arco-íris, blocos coloridos e lápis em ilustração lúdica infantojuvenil',
     layout: 'photo-right',
     iconType: 'child',
   },
@@ -114,8 +114,8 @@ export const LINK_CARDS: LinkCardItem[] = [
     bgColor: PALETTE.gumdrop,
     textColor: '#283A31',
     iconColor: '#3E5E4E',
-    imageSrc: '/assets/images/card-contato.png',
-    imageAlt: 'Ramos naturais em ambiente sereno',
+    imageSrc: '/assets/illustrations/card-contato.svg',
+    imageAlt: 'Balões de conversa, coração e estrelas em ilustração infantil acolhedora',
     layout: 'photo-right',
     iconType: 'chat',
   },
@@ -124,7 +124,7 @@ export const LINK_CARDS: LinkCardItem[] = [
 export const FAQ_ITEMS: FaqItem[] = [
   {
     id: 'idade-atendimento',
-    question: 'A partir de qual idade atende crianças e pré-adolescentes?',
+    question: 'A partir de qual idade atende o público infantojuvenil?',
     answer:
       'O atendimento online é voltado para crianças a partir de 6 anos e pré-adolescentes até 14 anos. Para crianças menores de 6 anos, realizo acompanhamento por meio de orientação parental, ajudando mãe, pai ou responsáveis a compreenderem e acolherem o desenvolvimento emocional no dia a dia.',
   },
@@ -157,21 +157,6 @@ export const FAQ_ITEMS: FaqItem[] = [
     question: 'Como funciona a primeira sessão e o agendamento?',
     answer:
       'O agendamento é rápido: basta clicar em "Agende sua sessão", escolher o foco do atendimento (Criança, Pré-adolescente ou Orientação aos Pais), informar o melhor dia e período e enviar. Em seguida, confirmo o horário diretamente pelo seu WhatsApp.',
-  },
-];
-
-export const TRUST_METRICS = [
-  {
-    value: '+30',
-    label: 'PACIENTES',
-  },
-  {
-    value: 'Desde 2023',
-    label: 'CUIDANDO DE HISTÓRIAS',
-  },
-  {
-    value: 'Atendimento',
-    label: 'ONLINE',
   },
 ];
 

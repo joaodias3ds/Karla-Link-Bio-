@@ -1,4 +1,4 @@
-import { PROFILE, SOCIAL_LINKS, SocialLink, TRUST_METRICS } from '../data/psychologistData';
+import { PROFILE, SOCIAL_LINKS, SocialLink } from '../data/psychologistData';
 
 interface FooterSectionProps {
   onSelectSocial: (social: SocialLink) => void;
@@ -32,22 +32,10 @@ function SocialGlyph({ id }: { id: SocialLink['id'] }) {
 export function FooterSection({ onSelectSocial }: FooterSectionProps) {
   return (
     <footer className="bg-[#F7E2C0] text-[#3A2E25] border-t border-[#EAD1A9]">
-      <div className="grid grid-cols-3 border-b border-[#3A2E25]/15">
-        {TRUST_METRICS.map((metric, idx) => (
-          <div
-            key={metric.value}
-            className={`px-2.5 py-4 text-center flex flex-col justify-center ${
-              idx < TRUST_METRICS.length - 1 ? 'border-r border-[#3A2E25]/15' : ''
-            }`}
-          >
-            <div className="font-serif text-[21px] leading-[1.1] font-medium text-[#33271F] tabular-nums">
-              {metric.value}
-            </div>
-            <div className="mt-1 text-[8.5px] leading-[1.25] tracking-[0.05em] uppercase text-[#5C4A3C]">
-              {metric.label}
-            </div>
-          </div>
-        ))}
+      <div className="px-6 py-3 text-center border-b border-[#3A2E25]/15">
+        <p className="text-[11px] font-medium tracking-[0.08em] uppercase text-[#5C4A3C]">
+          Atendimento psicológico online
+        </p>
       </div>
 
       <div className="px-6 pt-5 pb-6">

@@ -137,7 +137,7 @@ export function ServiceModal({
                   : activeModal === 'online'
                     ? 'Psicoterapia Online'
                     : activeModal === 'infantil'
-                      ? 'Crianças e Pré-adolescentes'
+                      ? 'Atendimento Infantojuvenil'
                       : activeModal === 'abordagem'
                         ? 'Minha abordagem'
                         : 'Fale comigo'}
@@ -317,7 +317,7 @@ export function ServiceModal({
         {activeModal === 'online' && (
           <div className="pt-5 space-y-4 text-[13.5px] leading-[1.65] text-[#4C4248]">
             <p>
-              A <strong>psicoterapia online para crianças e pré-adolescentes</strong> acontece em um ambiente digital seguro, leve e interativo, respeitando o ritmo de cada faixa etária.
+              A <strong>psicoterapia online infantojuvenil</strong> acontece em um ambiente digital seguro, leve e interativo, respeitando o ritmo de cada faixa etária.
             </p>
             <div className="rounded-2xl border border-[#E5DCE8] bg-[#F0EBF2]/70 p-4 space-y-2 text-[13px]">
               <p><strong>Como funciona:</strong> Recursos lúdicos, jogos, desenhos e conversa acolhedora por vídeo</p>
@@ -364,7 +364,7 @@ export function ServiceModal({
             </p>
             <div className="rounded-2xl border border-[#D4EADF] bg-[#E9F7F0]/80 p-4 text-[12.5px] space-y-1 text-[#283A31]">
               <p><strong>Karla Eduarda</strong> · Psicóloga Clínica ({PROFILE.crp})</p>
-              <p>Especialista em crianças e pré-adolescentes • Atendimento online desde 2023</p>
+              <p>Atendimento psicológico infantojuvenil • Modalidade online</p>
             </div>
             <button
               type="button"
