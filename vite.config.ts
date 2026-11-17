@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Karla-Link-Bio-/',
+    base: '/',
     plugins: [
       react(),
       tailwindcss(),
